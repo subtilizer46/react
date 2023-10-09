@@ -1,0 +1,59 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add some margin to separate menu and order */
+.Menu {
+  margin-right: 20px;
+}
+
+.Order {
+  flex: 1;
+}
+
+/* Add these styles to your CSS file */
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-right: 10px;
+}
