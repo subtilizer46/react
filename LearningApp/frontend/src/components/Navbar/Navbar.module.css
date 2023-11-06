@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav {
+  background: linear-gradient(90deg, #34568B, #233B5E); /* Gradient for a more modern look */
+  color: #EDEDED;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  animation: fadeIn 1s ease-out; /* Navbar fades in when the page is loaded */
+}
+
+.nav:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Elevate the navbar slightly on hover */
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logo:hover img {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+.leftNavList,
+.rightNavList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.leftNavList li,
+.rightNavList li {
+  margin: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.leftNavList a,
+.rightNavList a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.leftNavList li:hover,
+.rightNavList li:hover,
+.leftNavList a:hover,
+.rightNavList a:hover {
+  color: #FFD700;
+  transform: scale(1.1); /* Slightly enlarge the item on hover */
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(0,214,205,1) 0%, rgba(0,86,217,1) 100%);
+  -webkit-background-clip: text;
+  /* background-clip: inherit; */
+  -webkit-text-fill-color: transparent;
+}
+

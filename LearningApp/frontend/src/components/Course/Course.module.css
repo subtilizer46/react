@@ -1,0 +1,79 @@
+/* Container for all courses */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns, cleaner syntax */
+  gap: 20px; /* spacing between grid items */
+  padding: 20px; /* Add some padding around the entire grid */
+  background-color: #f7f7f7; /* Slight gray background to make courses stand out more */
+}
+
+/* Individual course styling */
+.course {
+  background-color: #ffffff; /* White background for each course */
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* Specify properties being transitioned */
+
+  /* Hover effect for better UX */
+  &:hover {
+    transform: translateY(-5px); /* Slight upward lift for a 3D effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  }
+}
+
+.course img {
+  width: 100%;         /* Ensures the image takes the full width of its container */
+  height: 200px;       /* Set a fixed height */
+  border-radius: 5px 5px 0 0; 
+  object-fit: cover;   /* Ensures image covers the space without distortion */
+  object-position: center; /* Center the image within its container */
+}
+
+.course h2 {
+  margin-top: 10px;
+  color: #333; /* Darker text for better readability */
+  font-weight: 600; /* Slight boldness to the title */
+}
+
+.course p {
+  font-size: 14px;
+  color: #777; /* Grayish text for subtle description */
+  line-height: 1.5; /* Improved readability with increased line height */
+}
+
+.enrollButton {
+  background-color: #3498db; /* Primary color, you can change this */
+  color: #ffffff; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Slight round edges */
+  cursor: pointer; /* Hand cursor on hover */
+  text-decoration: none; /* Remove link underline */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  font-weight: 600; /* Bold text */
+  display: inline-block; /* To make the link behave like a block element */
+}
+
+.enrollButton:hover {
+  background-color: #2980b9; /* Slightly darker color on hover */
+}
+
+.courseLink {
+  background-color: #e0e0e0; /* Neutral gray color */
+  color: #333333; /* Dark gray text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: 500; /* Semi-bold text */
+  display: inline-block; /* To make the link behave like a block element */
+  margin-right: 10px; /* Creates space between this button and the Enroll button if they are side by side */
+}
+
+.courseLink:hover {
+  background-color: #cccccc; /* Slightly darker gray color on hover */
+}

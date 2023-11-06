@@ -1,0 +1,124 @@
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: #fff3e6;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+ 
+.hero_overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #007BFF;
+}
+ 
+.hero_overlay p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  text-align: center;
+  max-width: 700px;
+}
+
+/* styles.css */
+.customLink {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: rgba(245, 245, 245, 0.1);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.customLink:hover {
+  background-color: rgba(0, 123, 255, 0.3);
+  color: #FFFFFF;
+}
+ 
+.home_page {
+  text-align: center;
+}
+ 
+.hero {
+  position: relative;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/public/images/landbg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 196px;
+  width: 812px;
+  border-radius: 10px;
+  color: #fff;
+}
+ 
+.hero_overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+ 
+.course_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+ 
+.course_card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  max-height: 90px;
+}
+ 
+.course_card h3{
+  margin: 7px;
+}
+ 
+.course_card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+/* HeroSection.module.css */
+
+/* Course Cards */
+.course_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.course_card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* Adjust based on the number of cards per row */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.course_card h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.course_card p {
+  font-size: 16px;
+  color: #555;
+}

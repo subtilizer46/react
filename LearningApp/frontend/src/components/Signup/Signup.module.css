@@ -1,0 +1,61 @@
+/* Signup.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    padding: 12px;
+    margin: 10px 0;
+    width: 98%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+select {
+    padding: 12px;
+    margin: 10px 0;
+    width: 103%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #333;
+}
+
+select:focus {
+    background: rgba(255, 255, 255, 0.4);
+    outline: none;
+}

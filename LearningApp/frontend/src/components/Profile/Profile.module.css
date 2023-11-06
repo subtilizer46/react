@@ -1,0 +1,56 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.heading {
+    background-image: linear-gradient(90deg, #FF5733, #FFC300);
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-details,
+.statistics {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details h2,
+.statistics h2 {
+    font-size: 1.8em;
+    color: #FF5733;
+    margin-bottom: 15px;
+    color: rebeccapurple;
+}
+
+.profile-details p,
+.statistics p {
+    color: rebeccapurple;
+    margin: 8px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-details p strong,
+.achievements ul,
+.interests ul {
+    color: #FF5733;
+}
+
+.statistics p strong {
+    color: #FF5733;
+    font-size: 1.2em;
+}
