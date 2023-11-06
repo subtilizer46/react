@@ -1,0 +1,62 @@
+
+
+#addButton {
+    margin-left: 0.5%;
+    margin-top: 2%;
+    height: 30px;
+    background: linear-gradient(rgb(244, 212, 152), rgb(241, 136, 241));
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#subButton {
+    margin-left: 0.5%;
+    margin-top: 2%;
+    height: 30px;
+    background: linear-gradient(rgb(244, 212, 152), rgb(241, 136, 241));
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#multiButton {
+    margin-left: 0.5%;
+    margin-top: 2%;
+    height: 30px;
+    background: linear-gradient(rgb(244, 212, 152), rgb(241, 136, 241));
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#divButton {
+    margin-left: 0.5%;
+    margin-top: 2%;
+    height: 30px;
+    background: linear-gradient(rgb(244, 212, 152), rgb(241, 136, 241));
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.formFields {
+    margin-left: 40%;
+}
+
+.inputField {
+    border: 2px solid black;
+    height: 25px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+#increment1 {
+    margin-left: 1%;
+}
+
+#increment2 {
+    margin-left: 1%;
+}
